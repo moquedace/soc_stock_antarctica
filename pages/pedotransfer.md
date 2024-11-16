@@ -1,3 +1,9 @@
+<p align="center">
+<img src="./img/terrantar_labgeo.png" width="1200">
+</p>
+
+<p>&nbsp;</p>
+
 # Pedotranference soil density and construction of splines
 ## Load Required Packages
 ```{r message=FALSE, warning=FALSE}

@@ -23,7 +23,7 @@ The main goal of this repository is to facilitate the understanding and replicat
 
 
 #### Datasets:
-[Data samples used in the study.](./pages/comp_models.md)<br>
+[Data samples used in the study.](./datasets/dataset_soc_stock_antarctica.csv)<br>
 [Environmental predictors.](./pages/predictors.md)<br>
 [Final dataset for model fitting and result reproduction.](./pages/dataset_ocs.md)<br>
 

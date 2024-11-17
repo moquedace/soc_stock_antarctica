@@ -4,7 +4,7 @@
 
 <p>&nbsp;</p>
 
-# Pedotranference soil density and construction of splines
+# Pedotransfer Model Adjustment for Soil Bulk Density
 ## Load Required Packages
 ```{r message=FALSE, warning=FALSE}
 pkg <- c("hydroGOF", "caret", "rgdal", "beepr", "sf", "fasterize", "stringr",

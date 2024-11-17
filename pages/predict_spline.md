@@ -2,23 +2,24 @@
 <img src="../img/terrantar_labgeo.png" width="1200">
 </p>
 
-# Initial Setup
+# Soil Bulk Density Prediction and Carbon Stock Spline
+## Initial Setup
 ```{r message=FALSE, warning=FALSE}
 # List of required packages
 pkg <- c("dplyr", "caret", "randomForest", "e1071", "ggplot2", "doParallel",
          "tidyr", "stringr", "parallelly", "quantregForest", "parallel",
          "terra", "data.table", "readr", "sf", "tmap")
 
-# Load each package listed, installing if necessary
+## Load each package listed, installing if necessary
 sapply(pkg, require, character.only = TRUE)
 
-# Clear the global environment
+## Clear the global environment
 rm(list = ls())
 
 ```
 
 
-# Data Loading and Preprocessing
+## Data Loading and Preprocessing
 ```{r message=FALSE, warning=FALSE}
 # Identify the first .RData file containing "bd"
 lvar <- list.files(path = "../results_bd", pattern = ".RData$",
@@ -65,7 +66,7 @@ head(df_cp)
 
 
 
-# Model Execution and Predictions
+## Model Execution and Predictions
 ```{r message=FALSE, warning=FALSE}
 # Mark the start of total execution time
 t1 <- Sys.time()
@@ -110,7 +111,7 @@ head(df_pred_final)
 
 ```
 
-# Statistical Analysis of Predictions
+## Statistical Analysis of Predictions
 ```{r message=FALSE, warning=FALSE}
 # Calculate statistics by ID: mean, standard deviation, and coefficient of variation
 df_pred_summary <- df_pred_final %>%
@@ -157,7 +158,7 @@ head(df_pred_mean)
 <img src="../img/box_mean_bd.png" width="600">
 </p>
 
-# Graphical Visualization of Predictions
+## Graphical Visualization of Predictions
 ```{r message=FALSE, warning=FALSE}
 # Violin plot for prediction visualization
 ggplot(df_pred_mean, aes(y = bd_pred, x = 0)) +
@@ -180,7 +181,7 @@ ggplot(df_pred_mean, aes(y = bd_pred, x = 0)) +
 
 
 
-# Calculation of Soil Organic Carbon Stock (SOC)
+## Calculation of Soil Organic Carbon Stock (SOC)
 ```{r message=FALSE, warning=FALSE}
 # Merge predictions with original data and calculate SOC
 df_cpf <- df_cp %>% 
@@ -229,7 +230,7 @@ head(df_coords)
 
 
 
-# Spline Interpolation for SOC
+## Spline Interpolation for SOC
 ```{r message=FALSE, warning=FALSE}
 # Load spline function from an external repository
 source("https://github.com/moquedace/funcs/blob/main/s_fspline.R?raw=TRUE")
@@ -282,7 +283,7 @@ print(ocs_spl_sf)
 
 
 
-# Spatial Visualization and Export
+## Spatial Visualization and Export
 ```{r message=FALSE, warning=FALSE}
 # Load and validate a reference shapefile
 ifa <- st_read("../data/aifa.shp") %>% 

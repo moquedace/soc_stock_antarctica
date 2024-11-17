@@ -16,7 +16,8 @@ The main goal of this repository is to facilitate the understanding and replicat
 
 ### Repository content:
 #### R Scripts:
-[Pedotranference soil density and construction of splines.](./pages/pedotransfer.md)<br>
+[Pedotransfer Model Adjustment for Soil Bulk Density.](./pages/pedotransfer.md)<br>
+[Soil Bulk Density Prediction and Carbon Stock Spline.](./pages/predict_spline.md)<br>
 [Model fitting.](./pages/fit_model.md)<br>
 [Map prediction.](./pages/pred_map.md)<br>
 

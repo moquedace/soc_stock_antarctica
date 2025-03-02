@@ -44,7 +44,7 @@ We appreciate your interest in this work. We hope that this repository not only 
 
 
 ### Reference:
-Mello, D., Francelino, M. R., Moquedace, C. M., Baldi, C. G. O., Silva, L., Siqueira, R. G., Veloso, G. V., Fernandes-Filho, E. I., Thomazini, A., Demattê, J.,  Ferreira, T., Gomes, L. C., Senra, E., Schaefer, C. E. G. R.  Global warming may turn ice-free areas of Maritime and Peninsular Antarctica into potential soil organic carbon sinks. *Commun Earth Environ*, v. xx, p. xx, 2024. DOI: [xxxxxxxxxxxxxx](https:xxxxxxxxxxxxx)
+Mello, D., Francelino, M. R., Moquedace, C. M., Baldi, C. G. O., Silva, L., Siqueira, R. G., Veloso, G. V., Fernandes-Filho, E. I., Thomazini, A., Demattê, J.,  Ferreira, T., Gomes, L. C., Senra, E., Schaefer, C. E. G. R.  Global warming may turn ice-free areas of Maritime and Peninsular Antarctica into potential soil organic carbon sinks. *Commun Earth Environ*, v. 6, n. 1, p. 143, 2025. DOI: [10.1038/s43247-024-01937-z](https://doi.org/10.1038/s43247-024-01937-z)
 
 
 We hope this repository serves as a resource for the scientific community interested in soil carbon mapping studies and the application of machine learning techniques. Collaboration is essential for advancing the understanding and conservation of natural resources.

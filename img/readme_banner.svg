@@ -1,0 +1,49 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Antarctic soil organic carbon stocks under warming</title>
+  <desc id="desc">A scientific README banner with Antarctic ice-free areas, soil layers, and climate scenario labels.</desc>
+  <rect width="1400" height="420" rx="26" fill="#0b1620"/>
+  <rect x="1" y="1" width="1398" height="418" rx="25" stroke="#8fb8de" stroke-opacity="0.65" stroke-width="2"/>
+
+  <g opacity="0.18">
+    <path d="M-10 312C92 271 166 297 247 260C328 223 349 153 450 156C551 159 587 225 688 205C789 185 818 111 920 122C1022 133 1055 208 1153 211C1251 214 1301 166 1417 183" stroke="#8fb8de" stroke-width="3"/>
+    <path d="M-20 350C101 311 164 333 263 301C362 269 375 200 459 198C543 196 592 254 701 239C810 224 832 155 924 164C1016 173 1063 245 1161 250C1259 255 1311 206 1421 221" stroke="#d6e9f8" stroke-width="2"/>
+    <path d="M-18 384C112 350 173 368 277 340C381 312 389 245 466 241C543 237 603 289 711 277C819 265 846 201 930 207C1014 213 1070 281 1167 288C1264 295 1322 247 1418 259" stroke="#f4f8fb" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(934 48)">
+    <path d="M168 24C216 40 254 78 269 128C285 181 270 235 232 270C194 305 137 315 89 295C42 276 14 231 14 179C14 129 42 82 83 52C111 32 140 15 168 24Z" fill="#102538" stroke="#2c4960" stroke-width="2"/>
+    <path d="M82 84C111 68 145 67 177 81C211 96 238 123 246 160C254 198 237 232 205 250C173 268 130 267 99 246C68 225 52 190 58 154C63 124 61 97 82 84Z" fill="#d6e9f8" opacity="0.92"/>
+    <path d="M100 116C127 103 162 106 188 123C214 140 231 169 226 198C222 226 196 246 164 249C132 252 101 237 86 212C71 187 73 154 88 133C91 128 95 121 100 116Z" fill="#8fb8de" opacity="0.9"/>
+    <path d="M121 157C141 145 170 149 189 166C208 183 214 211 198 229C181 247 150 249 128 234C105 219 98 190 108 169C111 164 116 160 121 157Z" fill="#365f7f"/>
+    <circle cx="76" cy="239" r="7" fill="#d97642"/>
+    <circle cx="107" cy="261" r="7" fill="#d97642"/>
+    <circle cx="211" cy="107" r="7" fill="#d97642"/>
+    <circle cx="245" cy="194" r="7" fill="#d97642"/>
+  </g>
+
+  <g transform="translate(78 68)">
+    <text x="0" y="0" fill="#8fb8de" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">MARITIME AND PENINSULAR ANTARCTICA / SOC STOCKS</text>
+    <text x="0" y="61" fill="#f8fbfd" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="50" font-weight="800">Ice-free areas as carbon sinks</text>
+    <text x="0" y="110" fill="#dbe8f1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">R code and data for modelling soil organic carbon stocks under future warming.</text>
+  </g>
+
+  <g transform="translate(78 236)" font-family="Segoe UI, Inter, Arial, sans-serif">
+    <rect x="0" y="0" width="102" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="27" y="27" fill="#f8fbfd" font-size="16" font-weight="700">8 m</text>
+    <rect x="118" y="0" width="118" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="143" y="27" fill="#f8fbfd" font-size="16" font-weight="700">0-30 cm</text>
+    <rect x="252" y="0" width="132" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="277" y="27" fill="#f8fbfd" font-size="16" font-weight="700">ML models</text>
+    <rect x="400" y="0" width="126" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="425" y="27" fill="#f8fbfd" font-size="16" font-weight="700">SSP1-2.6</text>
+    <rect x="542" y="0" width="126" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="567" y="27" fill="#f8fbfd" font-size="16" font-weight="700">SSP3-7.0</text>
+    <rect x="684" y="0" width="126" height="42" rx="21" fill="#122538" stroke="#2c4960"/>
+    <text x="709" y="27" fill="#f8fbfd" font-size="16" font-weight="700">SSP5-8.5</text>
+  </g>
+
+  <g transform="translate(80 330)">
+    <rect x="0" y="0" width="610" height="1" fill="#2c4960"/>
+    <text x="0" y="34" fill="#a9c5d8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="600">Potential SOC gains in current ice-free Antarctic landscapes depend on depth, island, temperature, precipitation, and NPP.</text>
+  </g>
+</svg>
